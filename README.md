@@ -21,6 +21,7 @@
   - python3 rds.py (it will take 10-15mins to create RDS)
   
 # RestFul API
+  - Application written in NodeJS
   - docker build tag api .
   - docker run --name api -dit -p 8090:8090 api
   - curl localhost:8090/invoiceList
